@@ -8,7 +8,7 @@ export default function Counter() {
   }
   return (
     <div className="h-screen w-screen flex flex-col justify-center items-center">
-        <h1 onClick={addCount} className="justify-center">
+        <h1 onClick={addCount} className="justify-center cursor-pointer">
           Increase Counter
         </h1>
         <p>
